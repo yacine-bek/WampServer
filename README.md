@@ -1,3 +1,5 @@
+---
+
 # WampServer Auto Setup Helper
 
 This small utility helps you handle the required dependencies to install **WampServer** smoothly.
@@ -22,3 +24,30 @@ Make sure **Python** is installed on your machine before proceeding.
 
    ```bash
    python start.py
+   ```
+
+   This script will install the required dependencies for WampServer.
+
+4. **Continue Installation**  
+   Once the script finishes, go back to the WampServer setup and continue the installation.
+
+✅ **All done!**
+
+---
+
+## 🧹 Uninstalling Dependencies
+
+If you want to remove the dependencies added by `start.py`, you can use the `remove.py` script:
+
+```bash
+python remove.py
+```
+
+---
+
+## 💡 Notes
+
+- Always run `start.py` and `remove.py` as administrator.
+- This script is intended to streamline setup on fresh systems that don’t meet WampServer’s prerequisites.
+
+--
