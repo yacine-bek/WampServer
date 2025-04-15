@@ -1,20 +1,24 @@
-# WampServer
-Download the requiered to use wampserever
+# WampServer Auto Setup Helper
 
+This small utility helps you handle the required dependencies to install **WampServer** smoothly.
 
-You need at least python in your pc
+## 📌 Requirements
 
+Make sure **Python** is installed on your machine before proceeding.  
+(You can download it from [python.org](https://www.python.org/downloads/)).
 
-so to run WampServer\n
-1.install the exe wampserver from this link : https://sourceforge.net/projects/wampserver/files/latest/download
-2.then make the setup until you get the error that you need some requirements
-3.run the start.py file with adminstrator
-4.then you can continue the setup of the wampServer
+---
 
+## 🚀 Installation Steps
 
-<ALL DONE!!>
+1. **Download WampServer**  
+   Get the latest installer from [this link](https://sourceforge.net/projects/wampserver/files/latest/download).
 
+2. **Start the Setup**  
+   Begin the WampServer installation. When you encounter the "missing requirements" error, **pause the setup**.
 
+3. **Run the Dependency Installer**  
+   Open a terminal with **administrator privileges**, then run:
 
-"if you want to delete what the program just installed you can run the remove.py file"
-
+   ```bash
+   python start.py
