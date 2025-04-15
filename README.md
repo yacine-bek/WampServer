@@ -50,4 +50,4 @@ python remove.py
 - Always run `start.py` and `remove.py` as administrator.
 - This script is intended to streamline setup on fresh systems that don’t meet WampServer’s prerequisites.
 
---
+---
